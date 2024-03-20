@@ -1,3 +1,5 @@
+https://github.com/hbtch/Chart-Activity/assets/140416299/d940198d-0d86-4837-b69e-a608f8cbe86b
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
