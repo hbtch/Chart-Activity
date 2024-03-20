@@ -1,4 +1,4 @@
-<img src="./src/chart.jpg"/>
+<img src="./src/chart.jpg" height="500"/>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
