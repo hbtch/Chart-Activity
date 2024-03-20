@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Делаем контейнер на всю высоту видимой области */
+}

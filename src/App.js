@@ -1,35 +1,32 @@
-import './App.css';
+import React from "react";
 import { Chart } from "react-google-charts";
+import "./App.css"; // Подключаем файл стилей
 
 export const data = [
-  ["Work", 45],
-  ["Sleep", 6],
-  ["Eat", 8],
-  ["Study", 30],
-  ["Cook", 7],
-  ["Relax", 4],
+  ["Activity", "Time"],
+  ["👩‍💻​ Work", 45],
+  ["💤​ Sleep", 6],
+  ["🍔​ Eat", 8],
+  ["📚​ Study", 28],
+  ["👩‍🍳​ Cook", 7],
+  ["💃​ Relax", 6],
 ];
-export const options = {
-  title: "Chart Activity",
-  legend: "none",
-  pieSliceText: "label",
-  slices: {
-    4: { offset: 0.2 },
-    12: { offset: 0.3 },
-    14: { offset: 0.4 },
-    15: { offset: 0.5 },
-  },
-};
 
+export const options = {
+  title: "My Daily Activities",
+  is3D: true,
+};
 export function App() {
   return (
-    <Chart
-      chartType="PieChart"
-      data={data}
-      options={options}
-      width={"100%"}
-      height={"400px"}
-    />
+    <div className="container">
+      <Chart
+        chartType="PieChart"
+        data={data}
+        options={options}
+        width={"600px"} // Измените ширину диаграммы по вашему усмотрению
+        height={"500px"} // Измените высоту диаграммы по вашему усмотрению
+      />
+    </div>
   );
 }
 export default App;
