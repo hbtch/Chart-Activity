@@ -1,4 +1,4 @@
-https://github.com/hbtch/Chart-Activity/assets/140416299/d940198d-0d86-4837-b69e-a608f8cbe86b
+<img src=".src/chart.jpg"/>
 
 # Getting Started with Create React App
 
