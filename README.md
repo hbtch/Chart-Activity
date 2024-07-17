@@ -11,4 +11,4 @@ In the project directory, you can run:
 
 ## Live Demo
 
-You can see the live demo [here]()
+You can see the live demo [here](https://hbtch.github.io/Chart-Activity/)
